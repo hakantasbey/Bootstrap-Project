@@ -58,6 +58,22 @@
 
 /*! -------------- 4- INSTRUCTORS ---------------- */
 
+section#instructors .card{
+    transition: transform 1s ease-in-out;
+}
+
+section#instructors .card:hover{
+    transform: scale(1.05);
+}
+
+section#instructors i{
+    transition: opacity .6s ease-in-out;
+}
+
+section#instructors i:hover{
+    opacity: 0.5;
+}
+
 /*! -------------- 4- STUDENTS SECTION ----------- */
 
 /*! -------------- 5- COURSES SECTION ------------ */
